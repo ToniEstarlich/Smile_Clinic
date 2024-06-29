@@ -1,0 +1,77 @@
+/*body*/
+body,h1,h2,h3,h4,h5,h6 {
+    font-family: "Raleway", sans-serif
+}
+.fa {
+    color: #FFC30B;
+}
+b {
+    z-index: +1;
+    color: #4abec2;
+    text-shadow: 2px 2px 2px #323338;
+}
+
+/*enf of body*/
+
+/*price*/
+#Price {
+    margin-top: 2%;
+    float: inline-end;
+    align-items: center;
+}
+
+.columns {
+    background-color: #bebebe;
+    float: left;
+    width: 28.3%;
+    padding: 0px;
+    margin-right: 4%;
+    margin-top: 2%;
+  }
+  
+  .price {
+    list-style-type: none;
+    border: 1px solid #eee;
+    margin: 0;
+    padding: 0;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  
+  .price:hover {
+    box-shadow: 20px 20px 2px 0 rgba(0,0,0,0.2)
+  }
+  
+  .price .header {
+    background-color: #323338;
+    color: white;
+    font-size: 25px;
+  }
+  
+  .price li {
+    border-bottom: 1px solid #eee;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .price .grey {
+    background-color: #eee;
+    font-size: 20px;
+  }
+  
+  .button {
+    background-color: rgb(22, 162, 193);;
+    border: none;
+    color: rgb(246, 246, 246);
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .columns {
+      width: 100%;
+    }
+  }
+/*end of the price/

@@ -3,41 +3,267 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <!--external links-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <!--End of the external Links-->
+
+    <!--Javascript and css-->
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" type="text/css" href="../css/nav_var.css">
+    <link rel="stylesheet" type="text/css" href="../css/footer.css">
+    <!--End of Javascript and css-->
+    
+    <title>Smile Clinic</title>
 </head>
 <body>
         
     <!--nav-->
-    <nav>
-    </nav>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark navbar-fixed-top">
+        <a class="navbar-brand" href="#home"><img src="../pictures/SCWB.png" class="logo" width="30" height="40"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#section2">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#section3">Service</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="price.html">Pricing</a>
+            </li>    
+          </ul>
+        </div>  
+      </nav>
     <!--end of the nav-->
     
     <!--header-->
-    <header>
+    <header class="w3-display-container w3-wide" id="home">
+        <video autoplay muted loop id="myVideo">
+            <source src="../videos/SmileClinic480.mp4" type="video/mp4" alt="Fashion Blog">
+          </video>
+          <div class="w3-display-left w3-padding-large">
+            <h1 class="w3-text-white"><b>Smile Clinic</b></h1>
+            <h3 class="w3-jumbo w3-text-white w3-hide-small">Your Trusted home Dental Clinic</h3>
+            <!--<button href="#contact" class="w3-button w3-white w3-padding-large w3-large w3-opacity w3-hover-opacity-off"   >SUBSCRIBE</button>-->
+            <a href="#contact"  ><button class="btn info"><h3>CONTACT</h3></button></a>
+          </div>
     </header>
     <!--end of header-->
     
     <!--testimonials-->
-    <section>
+    <section id="section1" class="container-fluid" style="padding-top:70px;padding-bottom:70px">
+        <h1>TESTIMONIALS<img src="../pictures/SC.png" class="logo" width="40" height="60"></h1>
+        <section id="testim" class="testim">
+            <div class="testim-cover">
+                <div class="wrap">
+    
+                    <span id="right-arrow" class=""></span>
+                    <span id="left-arrow" class=" "></span>
+                    <ul id="testim-dots" class="dots">
+                        <li class="dot active"></li><!--
+                             -->
+                        <li class="dot"></li><!--
+                             -->
+                        <li class="dot"></li><!--
+                             -->
+                        <li class="dot"></li><!--
+                             -->
+                        <li class="dot"></li>
+                    </ul>
+                    <div id="testim-content" class="cont">
+    
+                        <div class="active">
+                            <div class="img"><img src="../pictures/testimonial1.jpg" alt=""></div>
+                            <h2>Sarah Ipsum</h2>
+                            <p>I had a fantastic experience at Smile Clinic!
+                                Dr. Emily Smith and her team made me feel comfortable throughout my dental procedure.
+                                The results were amazing, and I can't stop smiling.</p>
+                        </div>
+    
+                        <div>
+                            <div class="img"><img src="../pictures/testimonial2.jpg" alt=""></div>
+                            <h2>Jhon Anderson</h2>
+                            <p>As someone who's always been nervous about dental visits,
+                                I was pleasantly surprised by Smile Clinic.
+                                Dr. Michael Johnson's expertise and the friendly staff put me at ease. </p>
+                        </div>
+    
+                        <div>
+                            <div class="img"><img src="../pictures/testimonial3.jpg" alt=""></div>
+                            <h2>David Rodriguez</h2>
+                            <p>I've been a patient at Smile Clinic for several years now,
+                                and I couldn't be happier with their services. Dr.
+                                Daniel Anderson is not only a skilled dentist but also a compassionate professional.</p>
+                        </div>
+    
+                        <div>
+                            <div class="img"><img src="../pictures/testimonial4.jpg" alt=""></div>
+                            <h2>Lisa Patel</h2>
+                            <p>Smile Clinic has been a game-changer for me. I couldn't be happier.
+                                The attention to detail and personalized care I received were exceptional.
+                                I'm truly grateful to Smile Clinic.</p>
+                        </div>
+    
+                        <div>
+                            <div class="img"><img src="../pictures/testimonial5.jpg" alt=""></div>
+                            <h2>Robert Smith</h2>
+                            <p>I used to dread dental appointments, but Smile Clinic,
+                                under the care of Dr. James Thompson, changed that completely.
+                                The entire staff is friendly and professional.</p>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <!--Javascript of testimonials-->
+        <script src="../JS/myscripts.js"></script>
+        <!--end of the javascript of the testimonials-->
+        </div>
     </section>
     <!--end of testimonials-->
     
-    <!--Service-->
-    <section>
-    </section>
-    <!--End of the Service-->
+    <!--About-->
+    <section id="section2" class="container-fluid bg-warning" style="padding-top:70px;padding-bottom:70px">
+            <h1>Meet Our Dedicated Team of Dental Professionals</h1>
+            <div class="container-mt-5">
+              <div class="row">
+                <div class="col-sm-4 w3-hover-opacity">
+                  <div class="card" style="width: 18rem;">
+                      <img src="../pictures/Emily.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                          <h3>Dr. Emily Parker</h3><h5 class="profession">Lead Dentist</h5>
+                        <p class="card-text">With over 10 years of experience in the field.
+                           A graduate of Univerity of Exeter School of Dentistry, 
+                          Dr. Parker is a firm believer in pain-free dentistry and has a 
+                          gentle approach that puts even the most anxious patients at ease.</p>
+                        <a href="#" class="fa fa-facebook"></a>
+                        <a href="#" class="fa fa-twitter"></a>
+                        <a href="#" class="fa fa-linkedin"></a>
+                        <a href="#" class="fa fa-youtube"></a>
+                      </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 w3-hover-opacity">
+                  <div class="card" style="width: 18rem;">
+                      <img src="../pictures/Sara.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                          <h3>Sarah Martinez</h3><h5 class="profession">Dental Hygienist</h5>
+                        <p class="card-text">With a passion for preventive care, 
+                          Sarah Martinez is our skilled dental hygienist. 
+                          She holds a degree in Dental Hygiene from 
+                          Imperial College London and brings 8 years of experience to our team.
+                           Sarah is meticulous in her work.</p>
+                        <a href="#" class="fa fa-facebook"></a>
+                        <a href="#" class="fa fa-twitter"></a>
+                        <a href="#" class="fa fa-linkedin"></a>
+                        <a href="#" class="fa fa-youtube"></a>
+                      </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 w3-hover-opacity">
+                  <div class="card" style="width: 18rem;">
+                      <img src="../pictures/Alex.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                          <h3>Alex Johnson</h3><h5 class="profession">Dental Assistant</h5>
+                        <p class="card-text">Our diligent dental assistant,
+                           bringing efficiency and support to our team. 
+                           With a diploma in Dental Assisting from Brighton College,
+                           Alex's attention to detail ensures smooth procedures 
+                           and a comfortable environment for patients.</p>
+                        <a href="#" class="fa fa-facebook"></a>
+                        <a href="#" class="fa fa-twitter"></a>
+                        <a href="#" class="fa fa-linkedin"></a>
+                        <a href="#" class="fa fa-youtube"></a>
+                      </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </section>
+    <!--End of the About-->
     
-    <!--Contact-->
+    <!--Our service-->
     <section>
+        <div id="section3"  class="container-fluid " style="padding-top:70px;padding-bottom:70px">
+            <div class="row">
+              <div class="col-sm-4">
+                <h3>Orthodontics</h3>
+                <span class="material-symbols-outlined" style="font-size: 8em;">clinical_notes</span>
+                <p>Straighten your teeth and achieve a confident smile with our orthodontic solutions.</p>
+                <p>Contact us to learn more or schedule an appointment to discuss your specific dental needs.</p>
+              </div>
+              <div class="col-sm-4">
+                <h3>Restorative Dentistry</h3>
+                <span class="material-symbols-outlined" style="font-size: 8em;">dentistry</span>
+                <p>Regain your smile's function and appearance with dental implants, crowns, and bridges.</p>
+                <p></p>
+              </div>
+              <div class="col-sm-4">
+                <h3>Cosmetic Dentistry</h3> 
+                <span class="material-symbols-outlined" style="font-size: 8em;">oral_disease</span>
+                <p>From routine check-ups to cleanings, our general dentistry services keep your oral health in top shape.</p>
+                <p>Transform your smile with teeth whitening, veneers, and smile-enhancing treatments.</p>
+              </div>
+            </div>
+          </div>
     </section>
-    <!--End of the contact-->
+    <!--End of the cOur service-->
 
-    <!---->
-    <!---->
+    <!--Contact-->
+    <div class="w3-container bg-warning" style="padding:128px 16px" id="contact">
+        <h3 class="w3-center">CONTACT</h3>
+        <p class="w3-center w3-large">Lets get in touch. Send us a message:</p>
+        <div style="margin-top:48px">
+          <p><i id="marker" class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i>Smile Clinic, 42 Parkside Avenue, London, SW1A 2BB</p>
+          <p><i id="Phone" class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone: +44 20 1234 5678</p>
+          <p><i id="Email" class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: info@londonsmileclinic.com</p>
+          <br>
+          <form action="/action_page.php" target="_blank">
+            <p><input class="w3-input w3-border" type="text" placeholder="Name" required name="Name"></p>
+            <p><input class="w3-input w3-border" type="text" placeholder="Email" required name="Email"></p>
+            <p><input class="w3-input w3-border" type="text" placeholder="Subject" required name="Subject"></p>
+            <p><input class="w3-input w3-border" type="text" placeholder="Message" required name="Message"></p>
+            <p>
+              <button class="w3-button bg-White" type="submit">
+                <i id="plane"class="fa fa-paper-plane"></i> SEND MESSAGE
+              </button>
+            </p>
+          </form>
+          <!-- Image of location/map -->
+          <a href="https://www.bing.com/search?q=mile+Clinic%2C+42+Parkside+Avenue%2C+London%2C+SW1A+2BB&cvid=25778be8b8cd41ac8b3960bb686e526a&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQRRg8MgYIAhBFGDwyBggDEEUYPNIBCDg3MThqMGo5qAIAsAIA&FORM=ANAB01&PC=U531" target="_blank">
+          <img src="../pictures/map.jpg" class="w3-image w3-greyscale"  width="600" height="800">
+          </a>
+        </div>
+      </div>
+    <!--Endof the contact-->
    
     <!--footer-->
-    <footer>
-    </footer>
+    <footer class="w3-center bg-dark w3-padding-64">
+        <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+        <div class="w3-xlarge w3-section">
+          <i class="fa fa-facebook-official w3-hover-opacity"></i>
+          <i class="fa fa-instagram w3-hover-opacity"></i>
+          <i class="fa fa-snapchat w3-hover-opacity"></i>
+          <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+          <i class="fa fa-twitter w3-hover-opacity"></i>
+          <i class="fa fa-linkedin w3-hover-opacity"></i>
+        </div>
+        <p>Powered by <a href="https://toniestarlich.github.io/" title="W3.CSS" target="_blank" class="w3-hover-text-green">Antonio Estalich</a></p>
+      </footer> 
     <!--end of the footer-->
 </body>
 </html>
