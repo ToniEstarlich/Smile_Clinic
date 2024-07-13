@@ -42,14 +42,14 @@ b {
 /*testimonials*/
 .testim {
     border-radius: 5px;
-    padding: 16px;
+    padding: 10px;
     margin: 16px 0
   }
   .testim .wrap {
       position: relative;
       width: 100%;
       max-width: 1020px;
-      padding: 40px 20px;
+      padding: 8px 8px;
       margin: auto;
   }
   
@@ -98,7 +98,6 @@ b {
       bottom: 60px;
       left: 0;
       display: block;
-      z-index: 3333;
       height: 12px;
   }
   
