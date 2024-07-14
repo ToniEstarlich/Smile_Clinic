@@ -16,9 +16,26 @@
     font-size: 17px;
   }
   
-  .navbar a:hover {
-    background: #ddd;
-    color: black;
+  a {
+    margin-left: 4%;
   }
+  .nav-link:hover{
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5);
+    background-color: #FFC30B;
+    color: #333;
+    box-shadow: 2px 4px 30px rgba(0, 0, 0, 0.1);
+}
+
+.logo:hover{
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5);
+}
+  /*.navbar a:hover {
+    background: #61c9e1;
+    color: black;
+  }*/
 
 /*end of the nav*/
