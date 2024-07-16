@@ -10,6 +10,11 @@ body {
     background-color: #FFC30B;
 }
 
+h5 {
+  margin-left: 20%;
+  color: #fff;
+}
+
 .container {
     height: 900px;
     width: 400px;
@@ -124,7 +129,7 @@ body {
   }
   button {
     margin: 0px;
-    margin-left: 15%;
+    margin-left: 25%;
   }
   .custom-btn {
     width: 130px;
