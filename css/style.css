@@ -143,7 +143,7 @@ b {
 
 @media only screen and (max-width: 990px){
     .serviceBox{ margin: 0 0 30px; }
-    .card { width: 18rem; }
+    .card { width: 22rem; }
     .social:hover, .card:hover {
         -ms-transform: scale(1.1); /* IE 9 */
         -webkit-transform: scale(1.1); /* Safari 3-8 */
