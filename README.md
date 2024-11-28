@@ -33,20 +33,12 @@ Welcome to the **Smile Clinic Dental** website repository! This project is a fic
 
 ### Fully Responsive Design
 
-- **Desktop View** -**Tablet View** -**Mobile View**
+**Desktop View**, **Tablet View**, **Mobile View**
 
 
 <img src="./screenshots/Screen-pc.jpeg" alt="Desktop Screenshot" width="330">                <img src="./screenshots/Screen-tablet.jpeg" alt="Tablet Screenshot" width="150">               <img src="./screenshots/Screen-smartphone.jpeg" alt="Mobile Screenshot" width="50">
 
 ---
-
-## 🚀 **Getting Started**
-
-To view this project locally:
-
-### 1️⃣ Clone the Repository:
-```bash
-git clone https://github.com/ToniEstarlich/Smile_Clinic
 
 ## 🚀 **Getting Started**
 
@@ -98,4 +90,6 @@ Contributions are welcome to improve this fictional project! Here's how you can 
 Smile Clinic Dental is a fictional project created for demonstration and educational purposes. It is not affiliated with any real dental clinic.  
 
 We welcome your feedback and ideas to enhance this project! 😊
+
+
 
