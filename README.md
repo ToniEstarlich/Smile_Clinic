@@ -34,7 +34,7 @@ Welcome to the **Smile Clinic Dental** website repository! This project is a fic
 ### Fully Responsive Design
 
 - **Desktop View**
-<img src="./screenshots/Screen-pc.jpeg" alt="Desktop Screenshot" width="300">- **Tablet View**<img src="./screenshots/Screen-tablet.jpeg" alt="Tablet Screenshot" width="140">- **Mobile View**<img src="./screenshots/Screen-smartphone.jpeg" alt="Mobile Screenshot" width="30">
+<img src="./screenshots/Screen-pc.jpeg" alt="Desktop Screenshot" width="300">- **Tablet View**<img src="./screenshots/Screen-tablet.jpeg" alt="Tablet Screenshot" width="120">- **Mobile View**<img src="./screenshots/Screen-smartphone.jpeg" alt="Mobile Screenshot" width="50">
 
 ---
 
