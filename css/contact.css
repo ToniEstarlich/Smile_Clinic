@@ -1,0 +1,166 @@
+body {
+	background-color: #FFC30B;
+}
+body,h1,h2,h3,h4,h5,h6, p {
+    font-family: "Raleway", sans-serif;
+}
+
+h1 {
+    font-size: 70px;
+}
+
+p {
+    font-size: 25px;
+    line-height: 32px;
+}
+
+b {
+    z-index: +1;
+    color: #4abec2;
+    text-shadow: 2px 2px 5px #323338;
+}
+
+@media only screen and (max-width: 990px){
+    h1, h2, h3 {
+        font-size: 50px;
+    }
+}
+
+#label1, #lavel2, #lavel3 {
+	margin-left: 4%;
+	color: #654b1e;
+}
+
+#contact {
+	color: #654b1e;
+	margin: 5%;
+}
+
+.map {
+	border: 2px solid black;
+	padding: 10px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	box-shadow: 20px 60px 20px 0 rgba(0, 0, 0, 0.4);
+}
+
+#title-Tag-Line {
+	font-size: 20px;
+}
+
+.pageTitle {
+	color: #654b1e;
+}
+
+#label1 {
+	margin-left: 2%;
+}
+
+.form {
+	background: #FFC30B;
+	box-shadow: 0px 60px 20px 0 rgba(0, 0, 0, 0.4);
+	border-radius: 5px;
+	max-width: 480px;
+	margin-left: 0%;
+	border-top: 5px solid #4c504e;
+	animation: bounce 1.5s infinite;
+}
+
+::-webkit-input-placeholder {
+	font-size: 1.3em;
+}
+
+.title {
+	display: block;
+	font-family: sans-serif;
+	margin: 10px auto 5px;
+	width: 300px;
+}
+
+.termsConditions {
+	margin: 0 auto 5px 80px;
+}
+
+.pageTitle {
+	font-size: 2em;
+	font-weight: bold;
+}
+
+.secondaryTitle {
+	color: grey;
+}
+
+.name {
+	background-color: #ebebeb;
+	color: rgb(0, 0, 0);
+}
+
+.name:hover {
+	border-bottom: 5px solid #4a5d53;
+	height: 30px;
+	width: 380px;
+	transition: ease 0.5s;
+}
+
+.email {
+	background-color: #ebebeb;
+	height: 2em;
+}
+
+.email:hover {
+	border-bottom: 5px solid #47514b;
+	height: 30px;
+	width: 380px;
+	transition: ease 0.5s;
+}
+
+.message {
+	background-color: #ebebeb;
+	overflow: hidden;
+	height: 10rem;
+}
+
+.message:hover {
+	border-bottom: 5px solid #5f6763;
+	height: 12em;
+	width: 380px;
+	transition: ease 0.5s;
+}
+
+.formEntry {
+	display: block;
+	margin: 30px auto;
+	min-width: 300px;
+	padding: 10px;
+	border-radius: 2px;
+	border: none;
+	transition: all 0.5s ease 0s;
+}
+
+.submit {
+	width: 200px;
+	color: white;
+	background-color: #616d66;
+	font-size: 20px;
+}
+
+.submit:hover {
+	box-shadow: 15px 15px 15px 5px rgba(97, 93, 96, 0.219);
+	transform: translateY(-3px);
+	width: 300px;
+	border-top: 5px solid #0e3750;
+	border-radius: 0%;
+}
+
+
+
+@keyframes bounce {
+	0% {
+		tranform: translate(0, 4px);
+	}
+
+	50% {
+		transform: translate(0, 8px);
+	}
+}
+
