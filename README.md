@@ -133,6 +133,11 @@ To include the font in the project, it is loaded via Google Fonts:
 - Hero video causes layout issues on some mobile devices.
 - Links in the Navbar are misaligned on Microsoft Edge and Internet Explorer.
 
+### Issues Encountered During Setup
+
+- During the process of pushing the latest changes to the repository, issues arose after relocating the project to a new directory. This led to conflicts between the local and remote branches.
+- To resolve this, I had to pull updates from the remote repository, merge the changes, and then successfully push the latest updates.
+
 ## Deployment
 
 ### GitHub Pages Deployment
